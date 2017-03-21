@@ -5,17 +5,19 @@
 [foo Dnames] = fileattrib( 'images/motorbikes/image*');
 
 % Parameters
-patchNum = 50;
-patchSize = 10;
-imageNum = 5;
-testNum = 1;
-codebookSize = 5;
+patchNum = 500;
+patchSize = 15;
+imageNum = 50;
+testNum = 10;
+codebookSize = 200;
 
 % Get a subset of the images for faster processing
 images = cat(2, Anames(1:imageNum), Bnames(1:imageNum), Cnames(1:imageNum), Dnames(1:imageNum));
 
 % Select 5 of each at random to be test images
 testIndices = [randperm(imageNum, testNum); randperm(imageNum, testNum) + 1 * imageNum; randperm(imageNum, testNum) + 2 * imageNum; randperm(imageNum, testNum) + 3 * imageNum];
+
+testIndices
 
 % Read and filter images
 for i = 1:size(images, 2)
@@ -62,6 +64,10 @@ end
 for i = 1:size(images, 2)
     A = nearestneighbour(images(i).Features, Codebook);
     images(i).Histogram = histcounts(A, codebookSize , 'Normalization', 'probability');
+    images(i).Histogram(images(i).Histogram > 0) = [1];
+
+    images(i).Histogram = histcounts(images(i).Histogram, codebookSize , 'Normalization', 'probability');
+
 end
 
 % Get which nearest neighbour for he histograms
@@ -71,17 +77,22 @@ TrainingImages = images(~ismember(1:end, testIndices(:)));
 Closest = nearestneighbour(vertcat(TestImages.Histogram), vertcat(TrainingImages.Histogram));
 
 % Get the number of times we got things wrong
-G = [TestImages.Class ; TrainingImages(Closest).Class]
+G = [TestImages.Class ; TrainingImages(Closest).Class];
 m = 0;
+e = zeros(1, 4);
+
+e
 
 
 for i = 1:size(G, 2)
     if (G(1, i) ~= G(2, i))
         m = m + 1;
+        e(G(1, i)) = e(G(1, i)) + 1;
     end
 end
 
 disp(['Correct : ' num2str(m) '/' num2str(size(G,2)) ' = ' num2str(100 * m/size(G,2)) '%'])
+e
 
 clear all
 
