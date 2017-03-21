@@ -4,23 +4,23 @@
 [foo Bnames] = fileattrib( 'images/laptop/image*');
 [foo Dnames] = fileattrib( 'images/motorbikes/image*');
 
-
 % Parameters
-patchNum = 500;
-patchSize = 5;
-imageNum = 200;
-codebookSize = 10;
+patchNum = 50;
+patchSize = 10;
+imageNum = 5;
+testNum = 1;
+codebookSize = 5;
 
-images = cat(2, Anames, Bnames, Cnames, Dnames);
+% Get a subset of the images for faster processing
+images = cat(2, Anames(1:imageNum), Bnames(1:imageNum), Cnames(1:imageNum), Dnames(1:imageNum));
 
 % Select 5 of each at random to be test images
-testIndices = [randperm(50, 5); randperm(50, 5) + 50; randperm(50, 5) + 100; randperm(50, 5) + 150];
-
-F = zeros(patchNum * imageNum, patchSize * patchSize);
+testIndices = [randperm(imageNum, testNum); randperm(imageNum, testNum) + 1 * imageNum; randperm(imageNum, testNum) + 2 * imageNum; randperm(imageNum, testNum) + 3 * imageNum];
 
 % Read and filter images
-for i = 1:imageNum
+for i = 1:size(images, 2)
 
+    % Read image
     image = im2double(imread(images(i).Name));
 
     % If image was read in an RGB format
@@ -45,9 +45,11 @@ for i = 1:imageNum
         %imwrite(feature, ['./features/element-' num2str(i) '-' num2str(j) '.bmp'], 'bmp');
     end
 
+    images(i).Class = idivide(int32(i-1), int32(imageNum)) + 1;
+    images(i).Index = i;
 end
 
-% Get Codebook by clustering all features in the training data
+% Get Codebook by clustering all features in the training data (i.e. not in the test data)
 [idx Codebook] = kmeans(vertcat(images(~ismember(1:end, testIndices(:))).Features), codebookSize);
 
 % Write the codebook
@@ -57,35 +59,29 @@ for i = 1:codebookSize
 end
 
 % Make histograms for all images
-for i = 1:imageNum
+for i = 1:size(images, 2)
     A = nearestneighbour(images(i).Features, Codebook);
     images(i).Histogram = histcounts(A, codebookSize , 'Normalization', 'probability');
 end
 
+% Get which nearest neighbour for he histograms
+TestImages     = images( ismember(1:end, testIndices(:)));
+TrainingImages = images(~ismember(1:end, testIndices(:)));
 
-%f = F(1:5,:);
-%size(f);
-%size(C);
+Closest = nearestneighbour(vertcat(TestImages.Histogram), vertcat(TrainingImages.Histogram));
 
-%F(1,:)
-%A = nearestneighbour(f, C);
-
-%size(C(A, :))
-
-%A
-%H = histcounts(A, 10, 'Normalization', 'probability')
-
-%a = reshape(C(i, :)', patchSize, patchSize);
-%b = reshape(C(i, :)', patchSize, patchSize);
-
-%figure
-%imshow(f)
-
-%figure
-%imshow(f)
-
-%clear all
+% Get the number of times we got things wrong
+G = [TestImages.Class ; TrainingImages(Closest).Class]
+m = 0;
 
 
+for i = 1:size(G, 2)
+    if (G(1, i) ~= G(2, i))
+        m = m + 1;
+    end
+end
 
+disp(['Correct : ' num2str(m) '/' num2str(size(G,2)) ' = ' num2str(100 * m/size(G,2)) '%'])
+
+clear all
 
