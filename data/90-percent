@@ -1,0 +1,89 @@
+%BAYES
+
+testIndices =
+
+    48    14    24    33    30
+    55    94    78    93    97
+   106   147   136   144   127
+   154   157   176   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 62)
+Correct : 18/20 = 90%
+
+e =
+
+     5     0     0     0
+     0     5     0     0
+     1     1     3     0
+     0     0     0     5
+
+Elapsed time is 168.202180 seconds.
+
+
+%NEIGHBOUR
+
+
+
+testIndices =
+
+  Columns 1 through 15
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127
+
+  Columns 16 through 20
+
+   154   157   176   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 64)
+Correct : 15/20 = 75%
+
+e =
+
+     4     0     1     0
+     0     4     1     0
+     1     1     2     1
+     0     0     0     5
+
+Elapsed time is 146.987044 seconds.
+
+
+
+
+% Tree
+
+
+
+
+testIndices =
+
+  Columns 1 through 15
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127
+
+  Columns 16 through 20
+
+   154   157   176   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 65)
+Correct : 9/20 = 45%
+
+e =
+
+     4     1     0     0
+     1     4     0     0
+     0     4     1     0
+     1     4     0     0
+
+Elapsed time is 156.565657 seconds.

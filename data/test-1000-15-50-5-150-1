@@ -1,0 +1,232 @@
+>> index
+
+testIndices =
+
+    41    45     7    43    30
+    55    64    77    96    95
+   108   148   146   123   137
+   158   171   194   188   195
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 16/20 = 80%
+
+e =
+
+     4     3     0     0
+     0     4     5     0
+     0     0     3     3
+     0     0     0     5
+
+Elapsed time is 165.171601 seconds.
+
+testIndices =
+
+     6    32    20    27    17
+    95    84    91    70    62
+   140   119   144   135   109
+   158   155   170   178   159
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 16/20 = 80%
+
+e =
+
+     3     1     2     0
+     0     5     0     0
+     0     4     3     0
+     0     0     0     5
+
+Elapsed time is 151.743114 seconds.
+
+testIndices =
+
+    26    13    11    12    46
+    67    52    90    78    88
+   137   122   104   128   145
+   171   167   183   197   168
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 14/20 = 70%
+
+e =
+
+     2     1     3     2
+     0     4     1     0
+     2     1     3     0
+     0     0     0     5
+
+Elapsed time is 157.856200 seconds.
+
+testIndices =
+
+    48    14    24    33    30
+    55    94    78    93    97
+   106   147   136   144   127
+   154   157   176   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 13/20 = 65%
+
+e =
+
+     5     0     0     0
+     3     3     4     0
+     1     1     1     2
+     4     0     0     4
+
+Elapsed time is 176.205435 seconds.
+
+testIndices =
+
+    21    33    47    49    20
+    70    54    76    67    55
+   121   133   120   139   106
+   163   189   187   197   160
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 13/20 = 65%
+
+e =
+
+     3     0     3     0
+     0     4     5     0
+     3     0     2     0
+     0     0     2     4
+
+Elapsed time is 171.822666 seconds.
+
+testIndices =
+
+    20     5    14    45    43
+    91    96    57    81    66
+   142   141   115   122   105
+   155   166   177   187   172
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 12/20 = 60%
+
+e =
+
+     3     2     1     0
+     2     4     0     0
+     2     1     1     0
+     0     3     0     4
+
+Elapsed time is 170.138431 seconds.
+
+testIndices =
+
+    26    38    39    49     1
+    59    60    86    84    55
+   117   150   145   142   143
+   194   153   157   159   185
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 12/20 = 60%
+
+e =
+
+     4     0     2     0
+     0     4     5     0
+     2     3     2     0
+     3     0     3     2
+
+Elapsed time is 154.040302 seconds.
+
+testIndices =
+
+    25    20    27    18    43
+    76    98    93    62    79
+   139   102   138   121   120
+   197   153   177   164   179
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 13/20 = 65%
+
+e =
+
+     2     0     1     3
+     0     5     0     0
+     3     3     2     0
+     0     5     0     4
+
+Elapsed time is 174.713752 seconds.
+
+testIndices =
+
+    33    19    15    49    34
+    71    90    52    89    85
+   145   138   130   139   146
+   182   174   183   197   166
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 14/20 = 70%
+
+e =
+
+     3     2     0     2
+     0     4     2     0
+     0     1     4     0
+     4     4     0     3
+
+Elapsed time is 177.150506 seconds.
+
+testIndices =
+
+     3    43    23    21     6
+    64    78    91    59    71
+   130   109   138   127   116
+   197   159   181   154   187
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 63)
+Correct : 8/20 = 40%
+
+e =
+
+     0     1     1     1
+     1     3     2     0
+     2     1     2     0
+     0     4     4     3
+
+Elapsed time is 170.576722 seconds.
+>>

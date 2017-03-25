@@ -1,0 +1,2349 @@
+Academic License
+
+>> index
+
+Parameters =
+
+   100    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 9/20 = 45%
+
+e =
+
+     2     1     0     2
+     1     2     0     2
+     1     2     1     1
+     0     1     0     4
+
+Elapsed time is 5.199388 seconds.
+
+Parameters =
+
+   100    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 7/20 = 35%
+
+e =
+
+     2     0     0     3
+     2     0     1     2
+     0     2     2     1
+     1     0     1     3
+
+Elapsed time is 4.421377 seconds.
+
+Parameters =
+
+   100    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 3/20 = 15%
+
+e =
+
+     1     1     1     2
+     0     0     4     1
+     1     2     1     1
+     1     1     2     1
+
+Elapsed time is 4.853792 seconds.
+Mean is : 25
+
+results =
+
+45
+35
+15
+
+
+Parameters =
+
+   100    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 7/20 = 35%
+
+e =
+
+     2     1     2     0
+     0     2     1     2
+     3     1     0     1
+     1     0     1     3
+
+Elapsed time is 3.343512 seconds.
+
+Parameters =
+
+   100    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 8/20 = 40%
+
+e =
+
+     2     1     2     0
+     1     1     1     2
+     2     1     1     1
+     0     0     1     4
+
+Elapsed time is 5.056860 seconds.
+
+Parameters =
+
+   100    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 10/20 = 50%
+
+e =
+
+     4     0     0     1
+     0     2     0     3
+     3     0     2     0
+     1     2     0     2
+
+Elapsed time is 3.678915 seconds.
+Mean is : 41
+
+results =
+
+35
+40
+50
+
+
+Parameters =
+
+   100    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 4/20 = 20%
+
+e =
+
+     1     0     1     3
+     0     1     2     2
+     1     0     2     2
+     2     2     1     0
+
+Elapsed time is 5.131059 seconds.
+
+Parameters =
+
+   100    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 8/20 = 40%
+
+e =
+
+     3     0     2     0
+     1     1     0     3
+     0     2     1     2
+     0     0     2     3
+
+Elapsed time is 5.429460 seconds.
+
+Parameters =
+
+   100    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 10/20 = 50%
+
+e =
+
+     3     1     0     1
+     1     0     2     2
+     2     0     3     0
+     0     0     1     4
+
+Elapsed time is 5.952937 seconds.
+Mean is : 30
+
+results =
+
+20
+40
+50
+
+
+Parameters =
+
+   100    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 4/20 = 20%
+
+e =
+
+     2     2     0     1
+     1     0     1     3
+     4     0     1     0
+     1     0     3     1
+
+Elapsed time is 7.233576 seconds.
+
+Parameters =
+
+   100    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 7/20 = 35%
+
+e =
+
+     2     0     2     1
+     1     1     1     2
+     2     2     1     0
+     0     0     2     3
+
+Elapsed time is 6.098896 seconds.
+
+Parameters =
+
+   100    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 7/20 = 35%
+
+e =
+
+     2     0     2     1
+     1     1     0     3
+     3     0     1     1
+     1     0     1     3
+
+Elapsed time is 6.409374 seconds.
+Mean is : 23
+
+results =
+
+20
+35
+35
+
+
+Parameters =
+
+   100    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 8/20 = 40%
+
+e =
+
+     2     1     1     1
+     0     2     3     0
+     1     1     3     0
+     2     1     1     1
+
+Elapsed time is 8.193227 seconds.
+
+Parameters =
+
+   100    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 7/20 = 35%
+
+e =
+
+     3     0     1     1
+     1     2     1     1
+     2     2     0     1
+     2     1     0     2
+
+Elapsed time is 8.108308 seconds.
+
+Parameters =
+
+   100    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 9/20 = 45%
+
+e =
+
+     3     1     0     1
+     1     2     0     2
+     0     3     2     0
+     2     0     1     2
+
+Elapsed time is 8.738260 seconds.
+Mean is : 33
+
+results =
+
+40
+35
+45
+
+
+Parameters =
+
+   250    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 10/20 = 50%
+
+e =
+
+     2     1     1     1
+     0     1     0     4
+     1     1     3     0
+     1     0     0     4
+
+Elapsed time is 5.084422 seconds.
+
+Parameters =
+
+   250    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 9/20 = 45%
+
+e =
+
+     3     1     1     0
+     1     2     2     0
+     2     2     1     0
+     0     1     1     3
+
+Elapsed time is 6.926700 seconds.
+
+Parameters =
+
+   250    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 10/20 = 50%
+
+e =
+
+     3     1     1     0
+     0     3     0     2
+     1     2     1     1
+     0     2     0     3
+
+Elapsed time is 6.490486 seconds.
+Mean is : 41
+
+results =
+
+50
+45
+50
+
+
+Parameters =
+
+   250    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 8/20 = 40%
+
+e =
+
+     3     1     1     0
+     0     2     0     3
+     2     1     2     0
+     0     2     2     1
+
+Elapsed time is 6.541221 seconds.
+
+Parameters =
+
+   250    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 5/20 = 25%
+
+e =
+
+     0     2     1     2
+     1     1     0     3
+     1     1     1     2
+     1     1     0     3
+
+Elapsed time is 6.171236 seconds.
+
+Parameters =
+
+   250    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 8/20 = 40%
+
+e =
+
+     1     2     2     0
+     0     2     2     1
+     2     1     1     1
+     1     0     0     4
+
+Elapsed time is 5.280463 seconds.
+Mean is : 31
+
+results =
+
+40
+25
+40
+
+
+Parameters =
+
+   250    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 14/20 = 70%
+
+e =
+
+     5     0     0     0
+     2     2     0     1
+     0     2     2     1
+     0     0     0     5
+
+Elapsed time is 9.661181 seconds.
+
+Parameters =
+
+   250    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 13/20 = 65%
+
+e =
+
+     5     0     0     0
+     0     2     3     0
+     1     1     2     1
+     0     0     1     4
+
+Elapsed time is 12.233009 seconds.
+
+Parameters =
+
+   250    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 11/20 = 55%
+
+e =
+
+     4     0     1     0
+     2     1     1     1
+     2     1     2     0
+     1     0     0     4
+
+Elapsed time is 12.332428 seconds.
+Mean is : 63
+
+results =
+
+70
+65
+55
+
+
+Parameters =
+
+   250    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 11/20 = 55%
+
+e =
+
+     5     0     0     0
+     0     2     0     3
+     2     1     0     2
+     1     0     0     4
+
+Elapsed time is 17.502090 seconds.
+
+Parameters =
+
+   250    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 7/20 = 35%
+
+e =
+
+     3     1     1     0
+     0     2     1     2
+     1     3     0     1
+     3     0     0     2
+
+Elapsed time is 17.866133 seconds.
+
+Parameters =
+
+   250    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 13/20 = 65%
+
+e =
+
+     3     1     1     0
+     0     3     1     1
+     1     0     3     1
+     0     1     0     4
+
+Elapsed time is 14.199603 seconds.
+Mean is : 45
+
+results =
+
+55
+35
+65
+
+
+Parameters =
+
+   250    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 9/20 = 45%
+
+e =
+
+     3     0     1     1
+     0     2     2     1
+     0     3     0     2
+     0     0     1     4
+
+Elapsed time is 17.985715 seconds.
+
+Parameters =
+
+   250    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 12/20 = 60%
+
+e =
+
+     2     1     1     1
+     1     3     0     1
+     1     0     4     0
+     1     0     1     3
+
+Elapsed time is 22.500171 seconds.
+
+Parameters =
+
+   250    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 11/20 = 55%
+
+e =
+
+     3     0     1     1
+     0     1     2     2
+     0     0     4     1
+     0     2     0     3
+
+Elapsed time is 18.836931 seconds.
+Mean is : 53
+
+results =
+
+45
+60
+55
+
+
+Parameters =
+
+   500    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     3     1     1     0
+     0     3     0     2
+     1     1     3     0
+     0     0     1     4
+
+Elapsed time is 11.684213 seconds.
+
+Parameters =
+
+   500    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 9/20 = 45%
+
+e =
+
+     2     1     1     1
+     0     2     1     2
+     2     1     2     0
+     0     1     1     3
+
+Elapsed time is 11.214917 seconds.
+
+Parameters =
+
+   500    15    50     5     5     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 9/20 = 45%
+
+e =
+
+     1     3     0     1
+     1     2     0     2
+     1     1     2     1
+     0     1     0     4
+
+Elapsed time is 9.493329 seconds.
+Mean is : 45
+
+results =
+
+65
+45
+45
+
+
+Parameters =
+
+   500    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 5/20 = 25%
+
+e =
+
+     2     1     2     0
+     1     1     1     2
+     3     1     1     0
+     0     3     1     1
+
+Elapsed time is 14.027118 seconds.
+
+Parameters =
+
+   500    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 10/20 = 50%
+
+e =
+
+     4     0     1     0
+     0     4     0     1
+     3     1     0     1
+     1     1     1     2
+
+Elapsed time is 12.973663 seconds.
+
+Parameters =
+
+   500    15    50     5    10     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 9/20 = 45%
+
+e =
+
+     2     0     1     2
+     0     3     0     2
+     2     1     1     1
+     2     0     0     3
+
+Elapsed time is 14.208303 seconds.
+Mean is : 33
+
+results =
+
+25
+50
+45
+
+
+Parameters =
+
+   500    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 14/20 = 70%
+
+e =
+
+     5     0     0     0
+     0     2     0     3
+     1     1     2     1
+     0     0     0     5
+
+Elapsed time is 22.305698 seconds.
+
+Parameters =
+
+   500    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 14/20 = 70%
+
+e =
+
+     4     1     0     0
+     0     4     1     0
+     0     2     2     1
+     1     0     0     4
+
+Elapsed time is 21.327193 seconds.
+
+Parameters =
+
+   500    15    50     5    50     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     4     1     0     0
+     0     2     1     2
+     2     1     2     0
+     0     0     0     5
+
+Elapsed time is 26.916961 seconds.
+Mean is : 61
+
+results =
+
+70
+70
+65
+
+
+Parameters =
+
+   500    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 11/20 = 55%
+
+e =
+
+     3     0     2     0
+     1     1     2     1
+     1     1     2     1
+     0     0     0     5
+
+Elapsed time is 41.830200 seconds.
+
+Parameters =
+
+   500    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     4     0     1     0
+     0     3     1     1
+     2     0     1     2
+     0     0     0     5
+
+Elapsed time is 39.042832 seconds.
+
+Parameters =
+
+   500    15    50     5   100     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 12/20 = 60%
+
+e =
+
+     4     0     1     0
+     1     2     0     2
+     0     0     2     3
+     0     0     1     4
+
+Elapsed time is 28.828255 seconds.
+Mean is : 53
+
+results =
+
+55
+65
+60
+
+
+Parameters =
+
+   500    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 9/20 = 45%
+
+e =
+
+     3     0     1     1
+     0     2     2     1
+     1     1     1     2
+     2     0     0     3
+
+Elapsed time is 55.419244 seconds.
+
+Parameters =
+
+   500    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 14/20 = 70%
+
+e =
+
+     3     1     1     0
+     0     3     1     1
+     2     0     3     0
+     0     0     0     5
+
+Elapsed time is 51.141830 seconds.
+
+Parameters =
+
+   500    15    50     5   200     0     0     0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 10/20 = 50%
+
+e =
+
+     4     0     1     0
+     0     1     2     2
+     0     2     1     2
+     1     0     0     4
+
+Elapsed time is 57.094737 seconds.
+Mean is : 51
+
+results =
+
+45
+70
+50
+
+
+Parameters =
+
+        1000          15          50           5           5           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 7/20 = 35%
+
+e =
+
+     2     3     0     0
+     0     1     1     3
+     1     1     2     1
+     0     2     1     2
+
+Elapsed time is 16.009774 seconds.
+
+Parameters =
+
+        1000          15          50           5           5           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 5/20 = 25%
+
+e =
+
+     3     0     2     0
+     1     1     3     0
+     3     2     0     0
+     3     1     0     1
+
+Elapsed time is 22.332023 seconds.
+
+Parameters =
+
+        1000          15          50           5           5           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 8/20 = 40%
+
+e =
+
+     1     1     2     1
+     2     0     1     2
+     1     1     3     0
+     0     0     1     4
+
+Elapsed time is 20.359586 seconds.
+Mean is : 33
+
+results =
+
+35
+25
+40
+
+
+Parameters =
+
+        1000          15          50           5          10           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     4     1     0     0
+     0     2     1     2
+     0     1     2     2
+     0     0     0     5
+
+Elapsed time is 26.559761 seconds.
+
+Parameters =
+
+        1000          15          50           5          10           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 10/20 = 50%
+
+e =
+
+     2     1     2     0
+     0     2     2     1
+     2     1     1     1
+     0     0     0     5
+
+Elapsed time is 27.961825 seconds.
+
+Parameters =
+
+        1000          15          50           5          10           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 12/20 = 60%
+
+e =
+
+     3     2     0     0
+     0     3     2     0
+     2     0     2     1
+     1     0     0     4
+
+Elapsed time is 26.653975 seconds.
+Mean is : 51
+
+results =
+
+65
+50
+60
+
+
+Parameters =
+
+        1000          15          50           5          50           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 12/20 = 60%
+
+e =
+
+     5     0     0     0
+     0     2     2     1
+     2     0     2     1
+     2     0     0     3
+
+Elapsed time is 54.647584 seconds.
+
+Parameters =
+
+        1000          15          50           5          50           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 16/20 = 80%
+
+e =
+
+     5     0     0     0
+     0     2     2     1
+     0     0     4     1
+     0     0     0     5
+
+Elapsed time is 58.358074 seconds.
+
+Parameters =
+
+        1000          15          50           5          50           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 14/20 = 70%
+
+e =
+
+     5     0     0     0
+     0     1     2     2
+     1     0     3     1
+     0     0     0     5
+
+Elapsed time is 56.932139 seconds.
+Mean is : 70
+
+results =
+
+60
+80
+70
+
+
+Parameters =
+
+        1000          15          50           5         100           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     4     0     1     0
+     0     2     2     1
+     2     0     2     1
+     0     0     0     5
+
+Elapsed time is 97.120264 seconds.
+
+Parameters =
+
+        1000          15          50           5         100           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 14/20 = 70%
+
+e =
+
+     5     0     0     0
+     0     3     1     1
+     3     0     2     0
+     0     0     1     4
+
+Elapsed time is 86.869155 seconds.
+
+Parameters =
+
+        1000          15          50           5         100           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 12/20 = 60%
+
+e =
+
+     4     1     0     0
+     0     2     1     2
+     2     2     1     0
+     0     0     0     5
+
+Elapsed time is 92.527907 seconds.
+Mean is : 61
+
+results =
+
+65
+70
+60
+
+
+Parameters =
+
+        1000          15          50           5         200           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 12/20 = 60%
+
+e =
+
+     4     0     1     0
+     1     3     0     1
+     0     2     2     1
+     1     0     1     3
+
+Elapsed time is 144.392425 seconds.
+
+Parameters =
+
+        1000          15          50           5         200           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     3     0     2     0
+     0     4     0     1
+     2     0     2     1
+     0     1     0     4
+
+Elapsed time is 123.682189 seconds.
+
+Parameters =
+
+        1000          15          50           5         200           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 14/20 = 70%
+
+e =
+
+     4     0     0     1
+     0     2     1     2
+     1     0     3     1
+     0     0     0     5
+
+Elapsed time is 137.683752 seconds.
+Mean is : 61
+
+results =
+
+60
+65
+70
+
+
+Parameters =
+
+        1500          15          50           5           5           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 7/20 = 35%
+
+e =
+
+     2     0     2     1
+     2     1     0     2
+     3     0     2     0
+     0     2     1     2
+
+Elapsed time is 29.577127 seconds.
+
+Parameters =
+
+        1500          15          50           5           5           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 9/20 = 45%
+
+e =
+
+     2     1     0     2
+     2     2     0     1
+     2     0     2     1
+     1     1     0     3
+
+Elapsed time is 28.085360 seconds.
+
+Parameters =
+
+        1500          15          50           5           5           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 10/20 = 50%
+
+e =
+
+     3     1     0     1
+     0     2     0     3
+     1     3     1     0
+     1     0     0     4
+
+Elapsed time is 29.412143 seconds.
+Mean is : 43
+
+results =
+
+35
+45
+50
+
+
+Parameters =
+
+        1500          15          50           5          10           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 9/20 = 45%
+
+e =
+
+     3     1     1     0
+     0     1     1     3
+     2     0     2     1
+     1     0     1     3
+
+Elapsed time is 24.118121 seconds.
+
+Parameters =
+
+        1500          15          50           5          10           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Correct : 8/20 = 40%
+
+e =
+
+     3     0     2     0
+     0     1     1     3
+     2     1     2     0
+     0     2     1     2
+
+Elapsed time is 28.931709 seconds.
+
+Parameters =
+
+        1500          15          50           5          10           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 9/20 = 45%
+
+e =
+
+     3     1     1     0
+     1     2     2     0
+     1     2     1     1
+     1     0     1     3
+
+Elapsed time is 37.325186 seconds.
+Mean is : 43
+
+results =
+
+45
+40
+45
+
+
+Parameters =
+
+        1500          15          50           5          50           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     4     0     1     0
+     0     1     2     2
+     1     0     3     1
+     0     0     0     5
+
+Elapsed time is 87.221973 seconds.
+
+Parameters =
+
+        1500          15          50           5          50           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     3     0     1     1
+     0     2     2     1
+     1     0     3     1
+     0     0     0     5
+
+Elapsed time is 81.106142 seconds.
+
+Parameters =
+
+        1500          15          50           5          50           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 14/20 = 70%
+
+e =
+
+     5     0     0     0
+     0     3     1     1
+     2     0     2     1
+     1     0     0     4
+
+Elapsed time is 91.059387 seconds.
+Mean is : 63
+
+results =
+
+65
+65
+70
+
+
+Parameters =
+
+        1500          15          50           5         100           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 16/20 = 80%
+
+e =
+
+     4     1     0     0
+     1     3     1     0
+     0     0     4     1
+     0     0     0     5
+
+Elapsed time is 146.798576 seconds.
+
+Parameters =
+
+        1500          15          50           5         100           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 14/20 = 70%
+
+e =
+
+     4     1     0     0
+     0     3     2     0
+     0     0     3     2
+     0     0     1     4
+
+Elapsed time is 147.478444 seconds.
+
+Parameters =
+
+        1500          15          50           5         100           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     5     0     0     0
+     1     2     2     0
+     2     1     1     1
+     0     0     0     5
+
+Elapsed time is 140.099109 seconds.
+Mean is : 71
+
+results =
+
+80
+70
+65
+
+
+Parameters =
+
+        1500          15          50           5         200           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 12/20 = 60%
+
+e =
+
+     4     0     1     0
+     0     3     1     1
+     1     2     0     2
+     0     0     0     5
+
+Elapsed time is 237.120750 seconds.
+
+Parameters =
+
+        1500          15          50           5         200           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 13/20 = 65%
+
+e =
+
+     3     1     0     1
+     0     2     1     2
+     0     0     3     2
+     0     0     0     5
+
+Elapsed time is 242.095679 seconds.
+
+Parameters =
+
+        1500          15          50           5         200           0           0           0
+
+
+testIndices =
+
+  Columns 1 through 18
+
+    48    14    24    33    30    55    94    78    93    97   106   147   136   144   127   154   157   176
+
+  Columns 19 through 20
+
+   175   198
+
+Warning: Failed to converge in 100 iterations.
+> In kmeans/loopBody (line 466)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In index (line 84)
+Correct : 16/20 = 80%
+
+e =
+
+     4     0     1     0
+     0     3     1     1
+     0     0     4     1
+     0     0     0     5
+
+Elapsed time is 229.781583 seconds.
+Mean is : 61
+
+results =
+
+60
+65
+80
+
+>>
